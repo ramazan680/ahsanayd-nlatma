@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AHSAN AYDINLATMA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1616627980416-2fdc76b2c2c1') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 10px 0;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>AHSAN AYDINLATMA</h1>
+  <p>Işığınız Bizden!</p>
+</header>
+
+<nav>
+  <a href="#hakkimizda">Hakkımızda</a>
+  <a href="#urunler">Ürünler</a>
+  <a href="#iletisim">İletişim</a>
+</nav>
+
+<section class="hero">
+  Aydınlatmanın Yeni Yüzü
+</section>
+
+<section id="hakkimizda" class="content">
+  <h2>Hakkımızda</h2>
+  <p>Avize, LED, projektör, sensörlü ürünler ve daha fazlası ile sektörde 10 yıllık tecrübe. Kalite ve müşteri memnuniyeti önceliğimizdir.</p>
+</section>
+
+<section id="urunler" class="products">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd" alt="Avize" />
+    <h3>Modern Avize</h3>
+    <p>Şık ve zarif tasarımlar</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1616628182508-9652072f0714" alt="LED Lamba" />
+    <h3>LED Ampul</h3>
+    <p>Enerji tasarruflu aydınlatma</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1583301288621-ffd38c0f84a2" alt="Projektör" />
+    <h3>Projektör</h3>
+    <p>Dış mekanlar için güçlü ışık</p>
+  </div>
+</section>
+
+<section id="iletisim" class="content">
+  <h2>İletişim</h2>
+  <p>📍 Mağaza: Hatay / Antakya</p>
+  <p>📞 Telefon: 0535 886 50 76</p>
+  <p>📧 Mail: ahsanaydinlatma@gmail.com</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/905358865076" target="_blank">💬</a>
+
+</body>
+</html>
